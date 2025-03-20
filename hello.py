@@ -692,7 +692,6 @@ class ImageEditor:
                         self.image.save(file_path + ".png", format="PNG")
 
                     self.unsaved_changes = False
-                    messagebox.showinfo("保存成功", "画像の保存に成功しました")
                 except Exception as e:
                     messagebox.showerror(
                         "保存エラー", f"画像の保存中にエラーが発生しました:\n{str(e)}"
