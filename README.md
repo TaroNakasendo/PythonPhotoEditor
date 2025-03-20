@@ -4,7 +4,13 @@
 
 ## 概要
 
-PythonPhotoEditorは、Pythonで開発されたシンプルな画像編集ツールです。基本的な画像処理機能を提供します。
+- PythonPhotoEditorは、Pythonで開発されたシンプルな画像編集ツールです。基本的な画像処理機能を提供します。
+- iPhoneで撮影したHEIC形式の画像などにナンバー消去などの加工をするのに便利です。
+
+### 使用例
+
+![使用例](smart.jpg)
+
 
 ## 主な機能
 
@@ -25,7 +31,7 @@ PythonPhotoEditorは、Pythonで開発されたシンプルな画像編集ツー
     cd PythonPhotoEditor
     ```
 
-2. 依存パッケージをインストール:
+2. 依存パッケージをインストール: [uv](https://docs.astral.sh/uv/)が使えること
 
     ```bash
     uv init
@@ -76,6 +82,10 @@ MIT License
 3. 変更をコミット (`git commit -am 'Add some feature'`)
 4. ブランチをプッシュ (`git push origin feature/your-feature`)
 5. プルリクエストを作成
+
+## 関連ソフトウェア
+
+画像のサイズ変更やフチの加工などには[額プチ](https://nakasendo.com/seedea/)をご利用ください。
 
 ## 作者
 
